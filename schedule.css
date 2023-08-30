@@ -1,0 +1,102 @@
+.information-section {
+  padding-top: var(--header-height);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--very-light-peach);
+}
+
+.form-banner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 5%;
+}
+
+.form > form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 20px;
+  grid-auto-rows: auto;
+}
+
+.form form input {
+  width: 100%;
+  display: block;
+  border: 3px solid var(--blue-light);
+  font-size: 1rem;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Name input {
+  width: 100%;
+}
+
+.full {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.form > p {
+  text-align: left;
+  font-size: 2rem;
+  margin: 5%;
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  color: var(--blue-light);
+  margin-top: 0;
+}
+
+form > div > p {
+  margin: 0;
+  text-align: left;
+  color: var(--blue-light);
+}
+
+.submitBTN {
+  background-color: var(--blue-light);
+  outline: none;
+  height: 7vh;
+  border: none;
+  color: var(--text-color);
+}
+
+.banner {
+  padding: 1%;
+  border: 3px solid gray;
+  width: 17%;
+  height: 8%;
+  margin-top: 5%;
+  box-sizing: border-box;
+}
+
+.banner > h3 {
+  font-weight: lighter;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.banner > p {
+  font-size: 0.7rem;
+  margin: 0;
+  line-height: 1.25rem;
+  text-align: start;
+}
+
+@media all and (max-width: 1000px) {
+  .form {
+    width: 50%;
+  }
+}

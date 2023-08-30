@@ -1,0 +1,65 @@
+.upperSection {
+  background-color: var(--peach-light);
+  height: 35vh;
+  margin-top: 5%;
+  padding-top: var(--header-height);
+}
+
+.upperSection > p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 0;
+}
+
+.upperSection > h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  margin: 1%;
+}
+
+.RSVP {
+  background-color: var(--blue-light);
+  color: var(--text-color);
+  width: 10%;
+  display: block;
+  margin: auto;
+  font-size: 0.8rem;
+  margin-top: 2%;
+  padding: 5px;
+  margin-bottom: 3%;
+}
+
+.RSPV2 {
+  margin-top: 5%;
+  margin-bottom: auto;
+}
+
+.event-details {
+  background-color: var(--very-light-peach);
+}
+
+h2 {
+  font-weight: lighter;
+  margin: 1%;
+  margin-top: 0;
+}
+
+.event-details > div {
+  width: 55%;
+  margin: 0 auto 0 auto;
+  padding-top: 4%;
+}
+
+.event-details > div > p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.map {
+  width: 65%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  height: 45vh;
+}

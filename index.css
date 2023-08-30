@@ -1,0 +1,398 @@
+:root {
+  --header-height: 80px;
+  --title-height: 5vh;
+  --blue-light: #50757b;
+  --blue-dark: #2e4b5f;
+  --petro-light: #7d9e9fa0;
+  --petro-dark: #21495e;
+  --peach-light: #f0e4d0;
+  --peach-dark: #ac8272;
+  --text-color: #fff;
+  --dark-text-color-pink: #c38a75;
+  --peach-mid: #e3bfafdf;
+}
+
+* {
+  font-family: sans-serif;
+  font-weight: light;
+  text-decoration: none;
+  color: var(--blue-dark);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Noticia Text", serif;
+}
+
+html {
+  font-size: clamp(12px, 3vw, 20px);
+  line-height: 1.75rem;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: var(--peach-light);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+header > div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.home-ref {
+  width: 10%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RSVP-header {
+  background: var(--blue-light);
+  width: 10%;
+  height: 40%;
+  padding: 5px;
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section {
+  background-color: var(--peach-light);
+  padding-top: calc(var(--header-height) + 10px);
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+.home-Img-container {
+  background-image: url(images/HomeBG.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80vh;
+  margin: 0;
+  width: 100%;
+}
+
+.home-section > h1 {
+  font-size: 6.2rem;
+  text-align: center;
+  padding: 0;
+  line-height: 6.2rem;
+  margin: 0;
+  color: var(--blue-light);
+}
+
+.invitation-p {
+  color: var(--blue-light);
+}
+
+.slideshow-container {
+  margin: auto;
+  width: 60%;
+  height: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.slideshow {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.slideshow img {
+  height: 100%;
+  width: auto;
+}
+
+.nameBabyShower-p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.RSVP-home {
+  background-color: var(--blue-light);
+  color: var(--text-color);
+  width: 15%;
+  display: block;
+  margin: auto;
+  line-height: 2rem;
+  margin-top: 2%;
+}
+
+.event-info-section {
+  background-color: var(--peach-light);
+  background-image: url(images/marbleBG.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10%;
+}
+
+.event-info-section > h1 {
+  font-size: 3.25rem;
+  line-height: 3.25rem;
+  margin: 1%;
+  color: var(--text-color);
+}
+
+.event-info-section > p {
+  width: 33%;
+  margin: auto;
+  line-height: 1.5rem;
+  color: var(--text-color);
+  font-weight: bolder;
+}
+
+.event-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: auto;
+  margin-top: 7%;
+}
+
+.RSVP-event-info {
+  width: 90%;
+  margin: auto;
+  margin-top: 0;
+  background-color: var(--blue-light);
+  color: var(--text-color);
+  height: 6vh;
+  display: block;
+  line-height: 2rem;
+  margin-bottom: 0;
+}
+
+.when {
+  background-color: #f0e4d0c6;
+  padding-top: 5%;
+  height: 50vh;
+}
+
+.clock-icon-container {
+  height: 20%;
+}
+
+.clock-icon-container > img {
+  height: 100%;
+  width: auto;
+}
+
+.when-details > h1 {
+  font-size: 3.25rem;
+  line-height: 4rem;
+  margin: 0;
+  margin-top: 2%;
+  color: var(--blue-dark);
+  margin-bottom: 30px;
+}
+
+.when-details > p {
+  margin: auto;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  color: var(--blue-dark);
+}
+
+.where {
+  padding-top: 5%;
+  background-color: var(--peach-mid);
+  height: 50vh;
+}
+
+.pin-icon-container {
+  height: 20%;
+}
+
+.pin-icon-container > img {
+  height: 100%;
+  width: auto;
+}
+
+.where-details > h1 {
+  font-size: 3.25rem;
+  line-height: 4rem;
+  margin: 0;
+  margin-top: 2%;
+  color: var(--blue-dark);
+  margin-bottom: 30px;
+}
+
+.where-details > p {
+  margin-top: 1%;
+  width: 70%;
+  margin: auto;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  color: var(--blue-dark);
+}
+
+.decorative {
+  background-color: var(--peach-light);
+}
+
+.decorative-img-container {
+  height: 100vh;
+  background-image: url(images/decoration.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: var(--peach-light);
+  height: 90vh;
+  background-image: url(images/marbleBG.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > h1 {
+  padding-top: 4%;
+  margin: 0;
+  color: var(--blue-dark);
+}
+
+.container {
+  height: 70%;
+  width: 60%;
+  background-color: #f0e4d0c6;
+  margin: auto;
+}
+
+.container p {
+  color: var(--blue-dark);
+}
+
+.questions-form {
+  width: 90%;
+  margin: auto;
+  height: 15vh;
+}
+
+.form-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 7%;
+  row-gap: 20%;
+  height: 100%;
+  margin-bottom: 10%;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 3%;
+  border-bottom: 3px solid var(--blue-dark);
+  color: var(--blue-dark);
+  text-align: left;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.sendButton {
+  width: 100%;
+  text-align: center;
+  border: none;
+  padding-top: 1%;
+  border-top: 3px solid var(--blue-dark);
+  cursor: pointer;
+}
+
+@media all and (max-width: 1000px) {
+  .home-Img-container {
+    background-size: contain;
+    height: 50vh;
+  }
+
+  .decorative-img-container {
+    background-size: contain;
+    height: 60vh;
+  }
+
+  .container {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  header > div {
+    width: 70%;
+  }
+
+  .RSVP-header {
+    width: 25%;
+    height: 50%;
+  }
+
+  .container {
+    height: 50%;
+  }
+
+  .RSVP-home {
+    width: 40%;
+  }
+
+  .RSVP-event-info {
+    height: 7%;
+  }
+
+  .when-details > h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .when-details > p {
+    line-height: 1.5rem;
+  }
+  .where-details > h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .where-details > p {
+    line-height: 1.5rem;
+  }
+
+  .decorative-img-container {
+    background-size: contain;
+    height: 40vh;
+  }
+
+  .home-Img-container {
+    background-size: contain;
+    height: 30vh;
+  }
+}

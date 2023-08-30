@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nora Sadder" />
+    <meta name="description" content="Baby Shower Party" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Baby Shower</title>
+    <link rel="stylesheet" href="eventDetails.css" type="text/css" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="stylesheet" href="schedule.css" type="text/css" />
+    <script src="index.js"></script>
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/born.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <a href="index.html" class="home-ref">Home</a>
+        <a href="eventDetails.html" class="RSVP-header"> RSVP </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="information-section">
+        <div class="form-banner">
+          <div class="form">
+            <p>Add Your Details</p>
+            <form>
+              <div class="grid-element Name">
+                <p>*First Name</p>
+                <input type="text" name="FName" />
+              </div>
+
+              <div class="grid-element Name">
+                <p>*Last Name</p>
+                <input type="text" name="LName" />
+              </div>
+
+              <div class="grid-element full">
+                <p>*Email</p>
+                <input type="text" name="Email" />
+              </div>
+
+              <button class="full submitBTN">Submit</button>
+            </form>
+          </div>
+          <!-- <div class="banner-container"> -->
+          <div class="banner">
+            <h3>KATE’S BABY SHOWER</h3>
+            <hr />
+            <p>Jun 23, 2035, 11:00 AM</p>
+            <p>The Barber Home</p>
+          </div>
+          <!-- </div> -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h1>QUESTIONS?</h1>
+        <p>Call Mariana at 123-456-7890 or leave us a message</p>
+        <form class="questions-form">
+          <div class="form-grid">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="message" placeholder="Message" required />
+            <input type="text" name="email" placeholder="Email" required />
+            <input type="text" name="phone" placeholder="Phone" />
+          </div>
+          <input type="submit" value="Send" class="sendButton" />
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
