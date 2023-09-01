@@ -3,13 +3,14 @@
   --title-height: 5vh;
   --blue-light: #50757b;
   --blue-dark: #2e4b5f;
-  --petro-light: #7d9e9fa0;
-  --petro-dark: #21495e;
+  /* --petro-light: #7d9e9fa0;
+  --petro-dark: #21495e; */
   --peach-light: #f0e4d0;
   --peach-dark: #ac8272;
   --text-color: #fff;
   --dark-text-color-pink: #c38a75;
   --peach-mid: #e3bfafdf;
+  --very-light-peach: #fdf7ee;
 }
 
 * {
